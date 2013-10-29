@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- EDITOR'S NOTE 
+Search this document for #1, #2, #3, #4, #5, to be taken to the pertinent part of the page that needs to be edited.
+!-->
+
+
+<head>
+
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta name="description" content="Page 2 of a drag n' drop exercise to teach students how to identify parts of a work that are needed in an MLA citation.">
+
+<title>The 'anatomy' of citations activity (page 2) | Raynor Memorial Libraries | Marquette University</title>
+
+<link href="./_assets/css/style.css" type=text/css rel=stylesheet media=screen>
+
+</head>
+
+<body>
+
+<div id="container">
+
+
+	<!-- START STEP #1
+		This is the part of the page where you will load the draggable images that are part of the citation. For example, book-chapter-chapter-title.png is the image name that corresponds with the Book Chapter Chapter Title. To make it easy, if you make a new image with the same width and height dimensions, save the image as book-chapter-chapter-title.png and upload to the images directory, it will automatically show up on the page.
+!-->
+
+
+	<div id="page_02_chapter_title_box">
+		<div id="draggable_chapter_title" class="chapter_title">
+			<img src="./_assets/images/book-chapter-chapter-title.png" id="citation_part">
+		</div>
+	</div>
+	<div id="page_02_publisher_box">
+		<div id="draggable_publisher" class="publisher">
+			<img src="./_assets/images/book-chapter-publisher.png" id="citation_part">
+		</div>
+	</div>
+	<div id="page_02_book_title_box">
+		<div id="draggable_book_title" class="book_title">
+			<img src="./_assets/images/book-chapter-book-title.png" id="citation_part">
+		</div>
+	</div>
+	<div id="page_02_chapter_editors_box">
+		<div id="draggable_book_editors" class="book_editors">
+			<img src="./_assets/images/book-chapter-editors.png" id="citation_part">
+		</div>
+	</div>
+	<div id="page_02_chapter_author_box">
+		<div id="draggable_chapter_author" class="chapter_author">
+			<img src="./_assets/images/book-chapter-author.png" id="citation_part">
+		</div>
+	</div>
+	<div id="page_02_chapter_page_box">
+		<div id="draggable_pages" class="pages">
+			<img src="./_assets/images/book-chapter-page.png" id="citation_part">
+		</div>
+	</div>
+	<div id="page_02_chapter_year_box">
+		<div id="draggable_year" class="year">
+			<img src="./_assets/images/book-chapter-year.png" id="citation_part">
+		</div>
+	</div>
+	<div id="page_02_chapter_database_box">
+		<div id="draggable_database" class="database">
+			<img src="./_assets/images/book-chapter-database.png" id="citation_part">
+		</div>
+	</div>
+
+	<!-- END STEP #1 !-->
+
+
+
+	<div id="header_nav">
+		<h1>The 'anatomy' of citations activity</h1>
+		<br clear="all"/>
+		<br clear="all"/>
+	</div>
+
+
+
+	<div id="content_left">
+
+
+		<!-- START STEP #2
+		This is the part of the page where you will load the non-draggable background image. To make it easy, if you make a new image with the same width and height dimensions, save the image as book-chapter.png and upload to the images directory, it will automatically show up on the page.
+!-->
+
+
+		<img src="./_assets/images/book-chapter.png" border="1" id="citation_background">
+
+
+
+		<!-- END STEP #2 !-->
+		<br clear="all"/>
+		<br clear="all"/>
+	</div>
+
+
+	<div id="content_right">
+
+
+
+		<!-- START STEP #3
+		This is the part of the page where the draggable image pieces from STEP #1 will go. It is an HTML table, adjust as needed, BUT REMEMBER, if you add additional rows to the table, you will need to add corresponding code in page-02.js to enable your new pieces to be drag and droppable.
+!-->
+
+
+
+
+		<table width="410" border="1" cellpadding="5" cellspacing="0">
+		<tr>
+			<td>
+				<strong>Chapter Title</strong>
+			</td>
+			<td id="citation_landing">
+				<div id="droppable_chapter_title">
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<strong>Chapter Author</strong>
+			</td>
+			<td id="citation_landing">
+				<div id="droppable_chapter_author">
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<strong>Book Editors</strong>
+			</td>
+			<td id="citation_landing">
+				<div id="droppable_book_editors">
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<strong>Book Title</strong>
+			</td>
+			<td id="citation_landing">
+				<div id="droppable_book_title">
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<strong>Publisher</strong>
+			</td>
+			<td id="citation_landing">
+				<div id="droppable_publisher">
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<strong>Pages</strong>
+			</td>
+			<td id="citation_landing">
+				<div id="droppable_pages">
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<strong>Year Published</strong>
+			</td>
+			<td id="citation_landing">
+				<div id="droppable_year">
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<strong>Database</strong>
+			</td>
+			<td id="citation_landing">
+				<div id="droppable_database">
+				</div>
+			</td>
+		</tr>
+		<tr bgcolor="#FEF8E5">
+			<td>
+				&nbsp;
+			</td>
+			<td align="center">
+				<span class="arrows">&raquo;</span> &nbsp; <button id="btnReset">Check Work</button>&nbsp; <span class="arrows">&laquo;</span>
+			</td>
+		</tr>
+		</table>
+
+
+		<!-- END STEP #3 !-->
+		<br>
+	</div>
+
+
+
+	<div id="citation">
+
+
+
+
+		<!-- START STEP #4
+		Here is where you can update the citation. Remember that anything you put between the <em></em> tags will appear italicized.
+!-->
+
+
+		<div id="mla_cite">
+			<h2>Here's the MLA style cite for this »</h2>
+			<br>
+			<p>
+				 Holtzclaw, Barbara J. "Dengue Fever." <em>Emerging Infectious Diseases: Trends and Issues</em>. Eds. Felissa R. Lashley, Jerry D. Durham. 2nd ed. New York: Springer Pub. Co., 2007. 123-132. <em>ebrary Academic Complete</em>. 23 July. 2012. Web.
+			</p>
+		</div>
+
+		<!-- END STEP #4 !-->
+
+
+		<div id="poll">
+
+
+			<!-- START STEP #5
+		This is the code pertaining to the quiz. If you want to change the answer, change the value in the input code to answer. Below the form code, you can change the feedback that will appear for the Incorrect and Correct boxes. One could also remove all the code between this comment and the END STEP #5 comment and insert a LibGuides poll using iFrames. However, doing that would disables the lightbox that appears after hitting submit, you would need to add instructions to let users advance to the next page.
+!-->
+			<h2>"Dengue Fever ..." is a: »</h2>
+			<br>
+			<form>
+				<p>
+					<input type="radio" name="publication" value="answer"/>Book chapter<br/>
+					<input type="radio" name="publication" value="incorrect"/>Scholarly journal article<br/>
+					<input type="radio" name="publication" value="incorrect"/>Popular magazine article<br/>
+					<input type="radio" name="publication" value="incorrect"/>Newspaper article<br/>
+				</p>
+				<span class="arrows">&raquo;</span> &nbsp; <input type="submit" name="submit_button" id="submit_button" value="Submit"/>
+				&nbsp;<span class="arrows">&laquo;</span>
+			</form>
+
+
+			<div id="boxes">
+				<div id="correct" class="window">
+					<p align="center">
+						<strong>Correct!</strong><br>
+						 Good work!
+					</p>
+					<br>
+					<p align="center">
+						<a href="page-03.html" class="next_question">Next Question &#187;</a>
+					</p>
+				</div>
+
+
+				<!-- Mask to cover the whole screen -->
+
+				<div id="mask">
+				</div>
+			</div>
+
+
+			<div id="boxes">
+				<div id="incorrect" class="window">
+					<p align="center">
+						<strong>Incorrect!</strong><br>
+						 We'll explain why during the workshop.
+					</p>
+					<br>
+					<p align="center">
+						<a href="page-03.html" class="next_question">Next Question &#187;</a>
+					</p>
+				</div>
+				<!-- Mask to cover the whole screen -->
+				<div id="mask">
+				</div>
+			</div>
+
+
+			<!-- END STEP #5 !-->
+		</div>
+	</div>
+
+
+
+	<br clear="all"/>
+</div>
+
+
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.js"></script>
+
+<!-- Loads Javascript that determines where each draggable piece will end up and allows you to select the correct answer for the quiz !-->
+<script type="text/javascript" src="./_assets/js/page-all.js"></script>
+
+<!-- Loads Javascript that determines where each draggable piece will end up and allows you to select the correct answer for the quiz !-->
+<script type="text/javascript" src="./_assets/js/page-02.js"></script>
+
+</body>
+
+</html>

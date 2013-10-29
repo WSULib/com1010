@@ -1,0 +1,90 @@
+.end-test li ul li {
+				cursor:pointer;
+				margin: 2px 0 2px 25px;
+				height:18px;
+				background-color: #FFF;
+				list-style-type: lower-alpha;
+
+			}
+.jquiz p, .jquiz ul, .jquiz ol, .jquiz  {
+	margin:0;
+	padding:0;
+	color: #000;
+}
+.jquiz {
+	padding:20px;
+}
+	.jquiz ul {
+		list-style-type:none;
+		margin:0;
+		padding:0;
+	}
+	.jquiz ol {
+		list-style-type: decimal;
+	}
+
+	.jquiz > li {
+		padding-bottom:10px;
+	}
+		.unanswered, .answered {
+			margin: 10px 0 0 0;
+			padding:0;
+		}
+			.jquiz li ul li {
+				cursor:pointer;
+				margin: 2px 0 2px 25px;
+				height:18px;
+				background-color: #FFF;
+				list-style-type: lower-alpha;
+
+			}
+				.jquiz li ul li:hover , .incorrect:focus, .correct:focus {
+					background-color: #EEE;
+					cursor:pointer;
+					margin: 2px 0 2px 25px;
+					height:18px;
+				}
+	.jquiz strong {
+		font-weight:bold;
+	}
+
+.wronganswer {
+	text-decoration:line-through;
+}
+.correctanswer {
+	color:#04a08b;
+}
+.realanswer {
+	color:#F00;
+}
+.hidden {
+	display:none;
+}
+
+.explanation {
+	text-align: left;
+}
+
+	.explanation p {
+	text-align: left;
+	margin-bottom: 0;
+	}
+
+.rightbox, .wrongbox {
+	padding:10px !important;
+	margin-top: 10px !important;
+}
+.rightbox {
+	background-color: #bfe8c4;
+}
+	.rightbox a {
+		color: #808066;
+	}
+.wrongbox {
+	background-color:#F0B0A9;
+}
+	.wrongbox a {
+		color: #825C58;
+	}
+
+

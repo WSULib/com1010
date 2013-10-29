@@ -1,0 +1,554 @@
+/* begin universal definitions */
+html,body,ul,li {
+	padding:0;
+	margin:0;
+}
+
+
+body {
+	font-family:Arial,Helvetica,Verdana,sans-serif;
+	background-color:#fff;
+}
+
+
+h1 {
+	margin:0 0 10px 0;
+	padding:0;
+	visibility:hidden;
+}
+
+
+h2  {
+	margin:15px auto 35px auto;
+	padding:0;
+	font-size:1.5em;
+	border-bottom:dashed 1px #bfbfbf;
+}
+
+p {
+	margin:15px auto;
+	line-height:1.3em;
+}
+
+a,a:link	 {
+	color:#0066CC;
+	text-decoration:none;
+}
+
+a:active,a:hover	  {
+	color:#0033FF;
+
+}
+
+hr {
+	width:60%;
+	margin:25px 25px 25px 70px;
+	color: #d5d5d5;
+}
+
+#container	 {
+	width:1100px;
+	margin:10px auto;
+	/* text-align:left;*/
+	padding:0px;
+	border:1px solid #d5d5d5;
+}
+
+#header_nav	 {
+	border-bottom:1px solid #d5d5d5;
+	background:url('http://marquette.edu/library/images/library_mu_logo.jpg') no-repeat;
+	background-position:10px 6px;
+	height:70px;
+}
+
+img#citation_part {
+	border:2px dashed #EEAA00;
+	cursor:move;
+	position:absolute;
+}
+
+
+img#citation_background {
+	margin: 8px;
+	padding: 2px;
+	
+}
+
+
+td#citation_landing {
+	width:250px;
+	height:32px;
+}
+
+li {
+	line-height:200%;
+	margin-bottom:5px;
+}
+
+#content_right {
+	width:410px;
+	margin:12px 10px;
+	float:right;
+	/* border:1px solid #000099;*/
+}
+
+#content_left {
+	width:625px;
+	margin:0px;
+	padding:0px;
+	padding-right:20px;
+	margin-top:12px;
+	margin-left:10px;
+	float:left;
+	border:1px solid #EEAA00;
+}
+
+#content_left h2 {
+	margin:15px auto 5px 10px;
+	padding:0;
+	font-size:1em;
+	border-bottom:dashed 1px #bfbfbf;
+	color: #EEAA00;
+}
+
+
+#direction_arrows {
+	font-size:3.5em;
+	float:right;
+	padding:10px;
+	width:170px;
+	margin-top:80px;
+	margin-right:10px;
+	/* margin-left:125px;*/
+	border:1px solid;
+}
+
+
+#direction_arrows_last {
+	font-size:3.5em;
+	float:right;
+	padding:10px;
+	width:205px;
+	margin-top:80px;
+	margin-right:10px;
+	/* margin-left:125px;*/
+	border:1px solid;
+}
+
+#citation {
+	float:left;
+	background-color:#FEF8E5;
+	width:1100px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+}
+
+#citation h2 {
+	margin:5px auto auto auto;
+	padding-bottom:5px;
+	font-size:1.2em;
+	color:#EEAA00;
+	border-bottom:dashed 1px #bfbfbf;
+}
+
+#mla_cite {
+	float:left;
+	padding:22px;
+	background-color:#FEF8E5;
+	width:612px;
+	border-right:dashed 1px #bfbfbf;
+	height:190px;
+}
+
+#mla_cite p {
+	text-indent:-20px;
+	line-height:1.5em;
+	margin-left:25px;
+	margin-top:0;
+	font-family:"Garamond","Georgia",Times,Serif;
+}
+
+#poll {
+	float:left;
+	padding:22px;
+	background-color:#FEF8E5;
+	width:355px;
+}
+
+#poll p {
+	line-height:1.5em;
+	margin-top:0;
+	font-family: "Garamond","Georgia",Times,Serif;
+}
+																									 
+
+
+.arrows {
+	color:#EEAA00;
+	font-weight:bold;
+	font-size:1.3em;
+
+}
+
+button {
+	background:#2c6da0;
+	border:none;
+	color:#fff;
+	cursor:pointer;
+	font-size:.9em;
+	padding:5px;
+	font-weight:bold;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	text-shadow:1px 1px #666;
+	text-decoration:none;
+}
+
+#submit_button {
+	background:#2c6da0;
+	border:none;
+	color:#fff;
+	cursor:pointer;
+	font-size:.9em;
+	padding:5px;
+	font-weight:bold;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	text-shadow:1px 1px #666;
+	text-decoration:none;
+}
+
+
+a.close,a.hideLink {
+	padding:5px 10px;
+	display:inline;
+	background:#2c6da0;
+	border:none;
+	color:#fff;
+	cursor:pointer;
+	font-weight:bold;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	text-shadow:1px 1px #666;
+	text-decoration:none;
+}
+
+a.close:hover {
+	background-position:0 center;
+}
+
+a.close:active {
+	background-position:0 top;
+	position:relative;
+	top:1px;
+	padding:6px 10px 4px;
+}
+
+a.next_question {
+	padding:5px 10px;
+	display:inline;
+	background:#2c6da0;
+	border:none;
+	color:#fff;
+	cursor:pointer;
+	font-weight:bold;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	text-shadow:1px 1px #666;
+	text-decoration:none;
+}
+
+a.next_question:hover {
+	background-position:0 center;
+}
+
+a.next_question:active {
+	background-position:0 top;
+	position:relative;
+	top:1px;
+	padding: 6px 10px 4px;
+}
+
+/* end layout definitions */
+
+
+
+
+
+
+/* START - POP UP WINDOW FOR INTRO AND QUIZ */
+
+#mask {
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:9000;
+	background-color:#000;
+	display:none;
+	width: 1478px; 
+	height: 602px; 
+	display: none;
+	opacity: 0.8;
+}
+
+#boxes .window {
+	position:absolute;
+	left:0;
+	top:0;
+	width:200px;
+	height:100px;
+	display:none;
+	z-index:9999;
+	padding:20px;
+}
+
+#boxes .dashed-border {
+	border: 5px dashed #EEAA00;
+
+}
+
+#boxes #dialog {
+	width:375px;
+	height:300px;
+	padding:25px;
+	background:url('../images/background-line.gif');
+	-moz-border-radius:15px;
+	border-radius:15px;
+	top: 199.5px; 
+	left: 551.5px; 
+	display: none;
+}
+
+#boxes #correct {
+	width:250px;
+	height:120px;
+	padding:25px;
+	background:url('../images/background-line.gif');
+	-moz-border-radius:15px;
+	border-radius:15px;
+	top: 199.5px;
+	left: 551.5px;
+	display: none;
+}
+
+#boxes #incorrect {
+	width:250px;
+	height:120px;
+	padding:25px;
+	background:url('../images/background-line.gif');
+	-moz-border-radius:15px;
+	border-radius: 15px;
+	top: 199.5px;
+	left: 551.5px;
+	display: none;
+}
+
+
+/* END - POP UP WINDOW FOR INTRO AND QUIZ */
+
+
+
+
+
+
+
+/* START - CSS CODE FOR DRAG AND DROP ITEMS ON INDEX.HTML */
+
+#index_year_box {
+	position:relative;
+	width:51px;
+	top:196px;
+	right:-390px;
+}
+
+#index_publication_title_box {
+	position:relative;
+	width:145px;
+	top:195px;
+	right:-152px;
+
+}
+
+#index_article_title_box {
+	position:relative;
+	width:255px;
+	top:160px;
+	right:-22px;
+}
+
+#index_author_box {
+	position:relative;
+	width:125px;
+	top:193px;
+	right:-22px;
+}
+
+#index_volume_box {
+	position:relative;
+	width:52px;
+	top:194px;
+	right:-305px;
+}
+
+#index_pages_box {
+	position:relative;
+	width:31px;
+	top:198px;
+	right:-442px;
+}
+
+#index_database_box {
+	position:relative;
+	width:145px;
+	top:97px;
+	right:-25px;
+}
+
+
+/* END - CSS CODE FOR DRAG AND DROP ITEMS ON INDEX.HTML */
+
+
+
+
+
+/* START - CSS CODE FOR DRAG AND DROP ITEMS ON PAGE-02.HTML */
+
+
+#page_02_chapter_title_box {
+	position:relative;
+	width:51px;
+	top:210px;
+	right:-170px;
+}
+
+
+#page_02_publisher_box {
+	position:relative;
+	width:145px;
+	top:380px;
+	right:-425px;
+}
+
+
+#page_02_book_title_box {
+	position:relative;
+	width:255px;
+	top:305px;
+	right:-425px;
+}
+
+
+#page_02_chapter_editors_box {
+	position:relative;
+	width:125px;
+	top:340px;
+	right:-425px;
+}
+
+
+#page_02_chapter_author_box {
+	position:relative;
+	width:52px;
+	top:260px;
+	right:-172px;
+}
+
+
+#page_02_chapter_page_box {
+	position:relative;
+	width:31px;
+	top:100px;
+	right:-370px;
+}
+
+
+#page_02_chapter_year_box {
+	position:relative;
+	width:31px;
+	top:402px;
+	right:-425px;
+}
+
+
+#page_02_chapter_database_box {
+	position:relative;
+	width:31px;
+	top:100px;
+	right:-30px;
+}
+
+
+
+/* END - CSS CODE FOR DRAG AND DROP ITEMS ON PAGE-02.HTML */
+
+
+
+
+
+
+/* START - CSS CODE FOR DRAG AND DROP ITEMS ON PAGE-03.HTML */
+
+
+
+#page_03_magazine_year_box {
+	position:relative;
+	width:51px;
+	top:212px;
+	right:-235px;
+}
+
+
+
+#page_03_publication_title_box {
+	position:relative;
+	width:145px;
+	top:212px;
+	right:-25px;
+
+}
+
+#page_03_article_title_box {
+	position:relative;
+	width:255px;
+	top:140px;
+	right:-25px;
+
+}
+
+
+#page_03_magazine_author_box {
+	position:relative;
+	width:125px;
+	top:190px;
+	right:-25px;
+}
+
+
+#page_03_magazine_volume_box {
+	position:relative;
+	width:52px;
+	top:212px;
+	right:-88px;
+}
+
+
+#page_03_magazine_page_box {
+	position:relative;
+	width:31px;
+	top:212px;
+	right:-290px;
+}
+
+
+#page_03_magazine_database_box {
+	position:relative;
+	width:145px;
+	top:97px;
+	right:-25px;
+}
+
+/* END - CSS CODE FOR DRAG AND DROP ITEMS ON PAGE-03.HTML */
